@@ -1,0 +1,114 @@
+:root {
+    -unity-font-definition: initial;
+    -unity-font: url('project://database/Assets/UI/MinimalPixel.ttf?fileID=12800000&guid=bffad9613cfee7e428113928aa176ea9&type=3#MinimalPixel');
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.label {
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+
+.button {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    font-size: 24px;
+    -unity-text-align: middle-center;
+    margin: 0;
+    padding: 8px 16px;
+    border-width: 0;
+    border-radius: 0;
+    min-width: 256px;
+    -unity-slice-left: 8;
+    -unity-slice-right: 8;
+    background-image: url('project://database/Assets/UI/Sprites/Button.png?fileID=2800000&guid=86f5a4dc8c5f05b4dba8b7f9fa8c161f&type=3#Button');
+    transition: -unity-background-image-tint-color 0.25s;
+    transition-property: all;
+    transition-duration: 0.2s;
+}
+
+.button:hover {
+    -unity-background-image-tint-color: rgb(219, 219, 219);
+}
+
+.button:active {
+    -unity-background-image-tint-color: rgb(219, 219, 219);
+    scale: 0.98 0.98;
+}
+
+.button:focus {
+    -unity-background-image-tint-color: rgb(219, 219, 219);
+}
+
+.slider {
+    color: rgb(184, 112, 79);
+    margin: 0;
+    font-size: 24px;
+}
+
+.slider:hover .unity-slider__label {
+  color: rgb(158, 96, 68);
+}
+
+.slider:active .unity-slider__label {
+  color: rgb(158, 96, 68);
+}
+
+.slider:focus .unity-slider__label {
+  color: rgb(158, 96, 68);
+}
+
+.slider .unity-base-slider__tracker {
+  background-color: rgb(63, 40, 49);
+  border-width: 0px 3px 3px 0px;
+  border-color: rgb(115, 63, 57);
+  margin-top: -5px;
+  height: 10px;
+}
+
+.slider .unity-base-slider__dragger {
+  background-color: rgb(184, 112, 79);
+  border-width: 0px 3px 3px 0px;
+  border-color: rgb(228, 166, 115);
+  margin-top: -16px;
+  width: 16px;
+  height: 32px;
+}
+
+.window {
+    padding: 32px 32px 28px;
+    -unity-slice-left: 32;
+    -unity-slice-top: 32;
+    -unity-slice-right: 32;
+    -unity-slice-bottom: 32;
+    background-image: url('project://database/Assets/UI/Sprites/Window.png?fileID=2800000&guid=0d2c1ccd3ff19804798b2c3c23843b74&type=3#Window');
+}
+
+.window__content {
+    align-items: center;
+    justify-content: center;
+    min-width: 640px;
+    min-height: 480px;
+    background-image: url('project://database/Assets/UI/Sprites/Content.png?fileID=2800000&guid=bf05520a8eb741d418e990852ccbea26&type=3#Content');
+}
+
+.window__title {
+    color: rgb(184, 112, 79);
+    text-shadow: 3px 3px 0 rgb(228, 166, 115);
+    font-size: 48px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}

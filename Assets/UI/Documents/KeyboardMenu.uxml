@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/GlobalStyles.uss?fileID=7433441132597879392&amp;guid=a9f100460df33b4489fd746503cf7998&amp;type=3#GlobalStyles" />
+    <ui:VisualElement class="container overlay">
+        <ui:VisualElement class="window" style="background-color: rgba(0, 0, 0, 0);">
+            <ui:VisualElement class="window__content">
+                <ui:Label tabindex="-1" text="Keyboard" display-tooltip-when-elided="true" class="window__title label" style="margin-bottom: 32px;" />
+                <ui:VisualElement />
+                <ui:Button text="Back" display-tooltip-when-elided="true" name="Back" class="button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

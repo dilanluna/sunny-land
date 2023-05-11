@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/GlobalStyles.uss?fileID=7433441132597879392&amp;guid=a9f100460df33b4489fd746503cf7998&amp;type=3#GlobalStyles" />
+    <ui:VisualElement class="container">
+        <ui:VisualElement name="Window" class="window">
+            <ui:VisualElement class="window__content">
+                <ui:VisualElement style="background-image: url(&apos;project://database/Assets/UI/Sprites/Title.png?fileID=2800000&amp;guid=21c79b4ee5b708a40bb09159389ed3e8&amp;type=3#Title&apos;); width: 388px; height: 76px; margin-bottom: 48px;" />
+                <ui:Button text="Start Game" display-tooltip-when-elided="true" name="StartGame" class="button" />
+                <ui:Button text="Options" display-tooltip-when-elided="true" name="Options" class="button" style="margin-top: 16px;" />
+                <ui:Button text="Quit Game" display-tooltip-when-elided="true" name="QuitGame" class="button" style="margin-top: 16px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:Label text="Version" display-tooltip-when-elided="true" name="Version" class="label" style="padding-left: 24px; padding-right: 24px; padding-top: 24px; padding-bottom: 24px; position: absolute; bottom: 0; left: 0; font-size: 24px;" />
+    </ui:VisualElement>
+</ui:UXML>
